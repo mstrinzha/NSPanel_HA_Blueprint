@@ -154,7 +154,7 @@ uart:
   - id: tf_uart
     tx_pin: 16
     rx_pin: 17
-    baud_rate: 115200
+    baud_rate: 9600
 
 ##### Keeps time display updated #####
 time:
@@ -1424,7 +1424,7 @@ select:
       - "256000"
       - "512000"
       - "921600"
-    initial_option: "115200"
+    initial_option: "9600"
     optimistic: true
     restore_value: true
     internal: false
